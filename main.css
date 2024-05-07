@@ -1,0 +1,44 @@
+h1 {
+    color: #08ff08;
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.about-link {
+    color: #08ff08;
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+.grid-item {
+    width: 25%; /* Set the width of the grid items to be 25% of the grid's width */
+  }
+  
+  .grid-item img {
+    width: 100%; /* Make the image take up the full width of the grid item */
+    height: auto; /* Set the height to auto to maintain the image's aspect ratio */
+    object-fit: contain;
+  }
+
+  .grid-item video {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+body {
+    background-color: black;
+}
+  @media (max-width: 450px) {
+    .grid-item {
+      width: 50%;
+    }
+  }
